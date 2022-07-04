@@ -1,0 +1,14 @@
+{
+  "name": "sky-lesson-3-material",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.22.1"
+  }
+}
