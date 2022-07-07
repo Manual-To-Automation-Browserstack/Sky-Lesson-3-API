@@ -54,8 +54,8 @@ test('The UI should display the bug and feature', async ({ page }) => {
   await expect(firstIssue).toHaveText('Shiny New Feature');
 });
 
-// test.afterAll(async ({ request }) => {
-//   // Delete the repository
-//   const response = await request.delete(`/repos/${USER}/${REPO}`);
-//   expect(response.ok()).toBeTruthy();
-// });
+test.afterAll(async ({ request }) => {
+  // Delete the repository
+  const response = await request.delete(`/repos/${USER}/${REPO}`);
+  expect(response.ok()).toBeTruthy();
+});
